@@ -33,6 +33,26 @@ This repository contains comprehensive notes and concepts from the Natural Langu
   - Introduces neural dependency parsing using deep learning
   - Discusses modern approaches to syntactic analysis
 
+### Module_003 - LMs_RNNs_LSTMs.ipynb
+- **Part 1: Recurrent Neural Networks**
+  - Reviews neural network improvements including regularisation, dropout, vectorisation, and optimisers
+  - Introduces language modelling fundamentals and n-gram models
+  - Covers neural language modelling with fixed-window models
+  - Explains RNN architecture, advantages, and limitations
+  - Discusses RNN training procedures and challenges
+- **Part 2: Sequence-to-Sequence Models and Machine Translation**
+  - Details language model evaluation using perplexity metrics
+  - Explains vanishing and exploding gradient problems in RNNs
+  - Introduces LSTM architecture with gating mechanisms (forget, input, output gates)
+  - Covers how LSTMs solve vanishing gradient problems
+  - Discusses machine translation challenges and neural machine translation (NMT)
+  - Explains sequence-to-sequence models and BLEU evaluation metrics
+- **Part 3: Attention Mechanisms**
+  - Introduces attention concepts and motivation for seq2seq improvements
+  - Details attention weight computation and context vector generation
+  - Covers various attention variants: dot-product, multiplicative, reduced-rank, and additive attention
+  - Explains scoring functions and attention mechanism applications
+
 ## Key Concepts Covered
 
 ### Word Representations
@@ -53,6 +73,30 @@ This repository contains comprehensive notes and concepts from the Natural Langu
 - Transition-based parsing algorithms
 - Neural approaches to dependency parsing
 - Ambiguity resolution in natural language
+
+### Language Modelling and Sequential Processing
+- N-gram models and their limitations
+- Fixed-window neural language models
+- Recurrent Neural Networks (RNNs) for sequence processing
+- Language model evaluation using perplexity
+
+### Advanced Sequential Architectures
+- Vanishing and exploding gradient problems
+- LSTM architecture and gating mechanisms
+- Gradient flow improvements in deep networks
+- Sequence-to-sequence models for translation
+
+### Machine Translation
+- Neural machine translation (NMT) fundamentals
+- Encoder-decoder architectures
+- BLEU evaluation metrics
+- Translation quality assessment
+
+### Attention Mechanisms
+- Attention concept and motivation
+- Attention weight computation and scoring functions
+- Attention variants (dot-product, multiplicative, additive)
+- Context vector generation and applications
 
 ## Usage
 These Jupyter notebooks serve as comprehensive study materials and reference guides for understanding modern NLP techniques. Each notebook contains detailed mathematical explanations, practical examples, and implementation concepts essential for NLP applications.
