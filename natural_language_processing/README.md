@@ -53,6 +53,21 @@ This repository contains comprehensive notes and concepts from the Natural Langu
   - Covers various attention variants: dot-product, multiplicative, reduced-rank, and additive attention
   - Explains scoring functions and attention mechanism applications
 
+### Module_004 - Transformers.ipynb
+- **Part 1: From Recurrence to Attention-based Models**
+  - Identifies limitations of RNNs: linear interaction distance and lack of parallelisation
+  - Introduces attention mechanisms for direct modelling of token relationships
+  - Explains self-attention concepts and scaled dot-product attention formula
+  - Addresses barriers to self-attention: sequence order, nonlinearities, and causal masking
+  - Details positional encodings (sinusoidal and learned) for sequence order
+  - Covers the complete self-attention building block architecture
+- **Part 2: Transformer Architecture and Trade-offs**
+  - Explains transformer decoder components: embeddings, positional encodings, masked multi-head attention
+  - Details residual connections (Add & Norm) and feed-forward networks
+  - Covers transformer encoder architecture with unmasked attention
+  - Discusses model advantages: parallelisation, long-range dependencies, excellent NLP performance
+  - Addresses trade-offs: quadratic complexity, computational requirements, and positional encoding limitations
+
 ## Key Concepts Covered
 
 ### Word Representations
@@ -97,6 +112,17 @@ This repository contains comprehensive notes and concepts from the Natural Langu
 - Attention weight computation and scoring functions
 - Attention variants (dot-product, multiplicative, additive)
 - Context vector generation and applications
+
+### Transformer Architecture
+- Self-attention mechanisms and scaled dot-product attention
+- Multi-head attention and representation subspaces
+- Positional encoding techniques (sinusoidal and learned)
+- Encoder-decoder architectures and their differences
+- Causal masking and autoregressive generation
+- Residual connections and layer normalisation
+- Feed-forward networks in transformer blocks
+- Parallelisation advantages over recurrent models
+- Computational complexity and scalability considerations
 
 ## Usage
 These Jupyter notebooks serve as comprehensive study materials and reference guides for understanding modern NLP techniques. Each notebook contains detailed mathematical explanations, practical examples, and implementation concepts essential for NLP applications.
